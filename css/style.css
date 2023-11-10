@@ -1,0 +1,54 @@
+/* GLOBAL  */
+html,body{
+    
+    font-family: 'Quicksand', sans-serif;
+    color: #404040;
+    font-size: 1rem;
+    line-height: 1.5;
+
+}
+
+a {
+    background-color: transparent;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+    vertical-align: middle;
+}
+
+body button, .btn, body a {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+.post-thumbnail img {
+    width: 100%;
+    min-height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+    display: block;
+    border-radius: var(--border-radius);
+}
+
+embed, iframe, object {
+    max-width: 100%;
+}
