@@ -130,10 +130,6 @@ section {
     margin-right: auto;
     margin-left: auto;
 }
-.col-6 {
-    flex: 0 0 50%;
-    max-width: 50%;
-}
 
 .col-md-3 {
     flex: 0 0 25%;
@@ -216,10 +212,6 @@ section {
     font-size: 38px;
     line-height: 48px;
     font-weight: 600;
-}
-
-.mt-5, .my-5 {
-    margin-top: 3rem !important;
 }
 
 .mt-3, .my-3 {
